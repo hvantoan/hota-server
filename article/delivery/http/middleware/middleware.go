@@ -1,6 +1,6 @@
 package middleware
 
-import "github.com/labstack/echo/v4"
+import "github.com/labstack/echo"
 
 // GoMiddleware represent the data-struct for middleware
 type GoMiddleware struct {

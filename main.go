@@ -8,7 +8,7 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo"
 	"github.com/spf13/viper"
 
 	_articleHttpDelivery "hota-server/article/delivery/http"
