@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"hota-server/middleware"
+	"hota-server/article/delivery/http/middleware"
 )
 
 func TestCORS(t *testing.T) {

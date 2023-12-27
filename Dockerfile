@@ -1,11 +1,10 @@
 # Builder
-FROM golang:1.11.4-alpine3.8 as builder
+FROM golang:1.14.2-alpine3.11 as builder
 
 RUN apk update && apk upgrade && \
-    apk --update add git gcc make && \
-    go get -u github.com/golang/dep/cmd/dep
+    apk --update add git make
 
-WORKDIR /go/src/hota-server
+WORKDIR /app
 
 COPY . .
 
@@ -20,8 +19,8 @@ RUN apk update && apk upgrade && \
 
 WORKDIR /app 
 
-EXPOSE 8888
+EXPOSE 9090
 
-COPY --from=builder /go/src/hota-server/engine /app
+COPY --from=builder /app/engine /app
 
 CMD /app/engine
