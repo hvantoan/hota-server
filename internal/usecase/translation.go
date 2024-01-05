@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hvantoan/go-clean-template/internal/entity"
+	"hota-server/internal/entity"
 )
 
 // TranslationUseCase -.

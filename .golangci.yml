@@ -1,6 +1,6 @@
 linters-settings:
   gci:
-    local-prefixes: github.com/hvantoan/go-clean-template
+    local-prefixes: hota-server
   dupl:
     threshold: 100
   errorlint:

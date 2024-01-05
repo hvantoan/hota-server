@@ -4,7 +4,7 @@ package usecase
 import (
 	"context"
 
-	"github.com/hvantoan/go-clean-template/internal/entity"
+	"hota-server/internal/entity"
 )
 
 //go:generate mockgen -source=interfaces.go -destination=./mocks_test.go -package=usecase_test

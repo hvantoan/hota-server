@@ -9,16 +9,16 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/hvantoan/go-clean-template/config"
-	amqprpc "github.com/hvantoan/go-clean-template/internal/controller/amqp_rpc"
-	v1 "github.com/hvantoan/go-clean-template/internal/controller/http/v1"
-	"github.com/hvantoan/go-clean-template/internal/usecase"
-	"github.com/hvantoan/go-clean-template/internal/usecase/repo"
-	"github.com/hvantoan/go-clean-template/internal/usecase/webapi"
-	"github.com/hvantoan/go-clean-template/pkg/httpserver"
-	"github.com/hvantoan/go-clean-template/pkg/logger"
-	"github.com/hvantoan/go-clean-template/pkg/postgres"
-	"github.com/hvantoan/go-clean-template/pkg/rabbitmq/rmq_rpc/server"
+	"hota-server/config"
+	amqprpc "hota-server/internal/controller/amqp_rpc"
+	v1 "hota-server/internal/controller/http/v1"
+	"hota-server/internal/usecase"
+	"hota-server/internal/usecase/repo"
+	"hota-server/internal/usecase/webapi"
+	"hota-server/pkg/httpserver"
+	"hota-server/pkg/logger"
+	"hota-server/pkg/postgres"
+	"hota-server/pkg/rabbitmq/rmq_rpc/server"
 )
 
 // Run creates objects via constructors.

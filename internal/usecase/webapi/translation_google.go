@@ -5,7 +5,7 @@ import (
 
 	translator "github.com/Conight/go-googletrans"
 
-	"github.com/hvantoan/go-clean-template/internal/entity"
+	"hota-server/internal/entity"
 )
 
 // TranslationWebAPI -.

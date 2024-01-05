@@ -7,8 +7,8 @@ import (
 
 	"github.com/streadway/amqp"
 
-	"github.com/hvantoan/go-clean-template/pkg/logger"
-	rmqrpc "github.com/hvantoan/go-clean-template/pkg/rabbitmq/rmq_rpc"
+	"hota-server/pkg/logger"
+	rmqrpc "hota-server/pkg/rabbitmq/rmq_rpc"
 )
 
 const (

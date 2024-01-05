@@ -10,9 +10,9 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	// Swagger docs.
-	_ "github.com/hvantoan/go-clean-template/docs"
-	"github.com/hvantoan/go-clean-template/internal/usecase"
-	"github.com/hvantoan/go-clean-template/pkg/logger"
+	_ "hota-server/docs"
+	"hota-server/internal/usecase"
+	"hota-server/pkg/logger"
 )
 
 // NewRouter -.

@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/hvantoan/go-clean-template/internal/entity"
-	"github.com/hvantoan/go-clean-template/internal/usecase"
-	"github.com/hvantoan/go-clean-template/pkg/logger"
+	"hota-server/internal/entity"
+	"hota-server/internal/usecase"
+	"hota-server/pkg/logger"
 )
 
 type translationRoutes struct {

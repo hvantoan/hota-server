@@ -8,7 +8,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	entity "github.com/hvantoan/go-clean-template/internal/entity"
+	entity "hota-server/internal/entity"
 	gomock "github.com/golang/mock/gomock"
 )
 

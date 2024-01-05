@@ -1,8 +1,8 @@
 package amqprpc
 
 import (
-	"github.com/hvantoan/go-clean-template/internal/usecase"
-	"github.com/hvantoan/go-clean-template/pkg/rabbitmq/rmq_rpc/server"
+	"hota-server/internal/usecase"
+	"hota-server/pkg/rabbitmq/rmq_rpc/server"
 )
 
 // NewRouter -.

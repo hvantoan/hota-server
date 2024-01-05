@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/hvantoan/go-clean-template/config"
-	"github.com/hvantoan/go-clean-template/internal/app"
+	"hota-server/config"
+	"hota-server/internal/app"
 )
 
 func main() {

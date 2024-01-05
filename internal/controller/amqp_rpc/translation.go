@@ -6,9 +6,9 @@ import (
 
 	"github.com/streadway/amqp"
 
-	"github.com/hvantoan/go-clean-template/internal/entity"
-	"github.com/hvantoan/go-clean-template/internal/usecase"
-	"github.com/hvantoan/go-clean-template/pkg/rabbitmq/rmq_rpc/server"
+	"hota-server/internal/entity"
+	"hota-server/internal/usecase"
+	"hota-server/pkg/rabbitmq/rmq_rpc/server"
 )
 
 type translationRoutes struct {
