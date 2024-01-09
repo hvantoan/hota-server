@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"hota-server/internal/entity"
-	"hota-server/pkg/postgres"
+	"varp_be/internal/entity"
+	"varp_be/pkg/postgres"
 )
 
 const _defaultEntityCap = 64

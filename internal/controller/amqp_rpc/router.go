@@ -1,8 +1,8 @@
 package amqprpc
 
 import (
-	"hota-server/internal/usecase"
-	"hota-server/pkg/rabbitmq/rmq_rpc/server"
+	"varp_be/internal/usecase"
+	"varp_be/pkg/rabbitmq/rmq_rpc/server"
 )
 
 // NewRouter -.

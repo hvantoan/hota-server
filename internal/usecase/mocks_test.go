@@ -8,7 +8,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	entity "hota-server/internal/entity"
+	entity "varp_be/internal/entity"
 	gomock "github.com/golang/mock/gomock"
 )
 

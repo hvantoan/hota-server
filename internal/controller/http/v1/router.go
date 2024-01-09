@@ -10,9 +10,9 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	// Swagger docs.
-	_ "hota-server/docs"
-	"hota-server/internal/usecase"
-	"hota-server/pkg/logger"
+	_ "varp_be/docs"
+	"varp_be/internal/usecase"
+	"varp_be/pkg/logger"
 )
 
 // NewRouter -.

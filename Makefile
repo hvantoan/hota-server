@@ -27,12 +27,12 @@ swag-v1: ### swag init
 
 run: swag-v1 ### swag run 
 	go mod tidy && go mod download && \
-	DISABLE_SWAGGER_HTTP_HANDLER='' GIN_MODE=debug CGO_ENABLED=0 go run -tags migrate ./cmd/app
+	DISABLE_SWAGGER_HTTP_HANDLER='' GIN_MODE=debug CGO_ENABLED=0 go run -tags migrate ./
 	
 .PHONY: run
 
 docker-rm-volume: ### remove docker volume
-	docker volume rm hota-server_pg-data
+	docker volume rm varp_be_pg-data
 .PHONY: docker-rm-volume
 
 linter-golangci: ### check by golangci linter

@@ -1,6 +1,6 @@
 linters-settings:
   gci:
-    local-prefixes: hota-server
+    local-prefixes: varp_be
   dupl:
     threshold: 100
   errorlint:

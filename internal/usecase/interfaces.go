@@ -4,7 +4,7 @@ package usecase
 import (
 	"context"
 
-	"hota-server/internal/entity"
+	"varp_be/internal/entity"
 )
 
 //go:generate mockgen -source=interfaces.go -destination=./mocks_test.go -package=usecase_test

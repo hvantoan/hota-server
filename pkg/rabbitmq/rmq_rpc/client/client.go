@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/streadway/amqp"
 
-	rmqrpc "hota-server/pkg/rabbitmq/rmq_rpc"
+	rmqrpc "varp_be/pkg/rabbitmq/rmq_rpc"
 )
 
 // ErrConnectionClosed -.

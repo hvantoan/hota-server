@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"hota-server/config"
-	"hota-server/internal/app"
+	"varp_be/config"
+	"varp_be/internal/app"
 )
 
 func main() {

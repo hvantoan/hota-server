@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"hota-server/internal/entity"
+	"varp_be/internal/entity"
 )
 
 // TranslationUseCase -.

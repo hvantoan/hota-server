@@ -8,8 +8,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"hota-server/internal/entity"
-	"hota-server/internal/usecase"
+	"varp_be/internal/entity"
+	"varp_be/internal/usecase"
 )
 
 var errInternalServErr = errors.New("internal server error")

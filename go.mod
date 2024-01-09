@@ -1,4 +1,4 @@
-module hota-server
+module varp_be
 
 go 1.21.5
 

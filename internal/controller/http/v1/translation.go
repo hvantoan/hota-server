@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"hota-server/internal/entity"
-	"hota-server/internal/usecase"
-	"hota-server/pkg/logger"
+	"varp_be/internal/entity"
+	"varp_be/internal/usecase"
+	"varp_be/pkg/logger"
 )
 
 type translationRoutes struct {

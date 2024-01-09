@@ -5,7 +5,7 @@ import (
 
 	translator "github.com/Conight/go-googletrans"
 
-	"hota-server/internal/entity"
+	"varp_be/internal/entity"
 )
 
 // TranslationWebAPI -.

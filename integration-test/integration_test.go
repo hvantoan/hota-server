@@ -9,7 +9,7 @@ import (
 
 	. "github.com/Eun/go-hit"
 
-	"hota-server/pkg/rabbitmq/rmq_rpc/client"
+	"varp_be/pkg/rabbitmq/rmq_rpc/client"
 )
 
 const (
