@@ -27,3 +27,9 @@ type (
 		Translate(entity.Translation) (entity.Translation, error)
 	}
 )
+
+type (
+	Camera interface {
+		LoadCameras(context.Context) ([]entity.Camera, error)
+	}
+)

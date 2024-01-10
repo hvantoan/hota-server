@@ -41,5 +41,6 @@ func NewRouter(handler *gin.Engine, l logger.Interface, t usecase.Translation) {
 	h := handler.Group("/v1")
 	{
 		newTranslationRoutes(h, t, l)
+		newCamneraRoutes(h, l)
 	}
 }

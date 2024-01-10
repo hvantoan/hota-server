@@ -45,6 +45,9 @@ func Run(cfg *config.Config) {
 	if err != nil {
 		l.Fatal(fmt.Errorf("app - Run - rmqServer - server.New: %w", err))
 	}
+	
+	// Websocket Server
+	// wsServer, err := websocket.New(cfg.WS.Port, l)
 
 	// HTTP Server
 	handler := gin.New()
